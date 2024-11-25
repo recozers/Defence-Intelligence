@@ -4,9 +4,9 @@ import pandas as pd
 ### First extract the data from the pdfs and accompanying csv.
 
 
-pdf_path = "/Users/stuartbladon/Documents/Duke 2024/AIPI 510/dataset proj/code+data/Intelligence Data/" #You will obviously need to update this
+pdf_path = "/Users/stuartbladon/Documents/Duke 2024/AIPI 510/dataset proj/code+data/Intelligence Data/" #You will obviously need to update this, you want this to be the path to the 'intelligence data' folder
 
-data = pd.read_csv("/Users/stuartbladon/Documents/Duke 2024/AIPI 510/dataset proj/code+data/data.csv") # and this
+data = pd.read_csv("/Users/stuartbladon/Documents/Duke 2024/AIPI 510/dataset proj/code+data/data.csv") # and this, you want this to be the data.csv file
 
 print(data.head())
 
@@ -46,6 +46,7 @@ spell = Speller(lang='en') #initialise spellcheck
 valid_words = set(words.words()) 
 
 def clean_text(text):
+    """cleans the textual data using spellcheck and valid words"""
     corrected_words = []
     for word in text.split():
         corrected = spell(word)  # Correct the word using autocorrect
