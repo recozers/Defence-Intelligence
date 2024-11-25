@@ -45,6 +45,7 @@ There are currently only around 100 reports in this database. I am committed to 
 ### Links
 [Github](https://github.com/recozers/Defence-Intelligence) </br>
 [Kaggle](https://www.kaggle.com/datasets/stuartbladon/declassified-cia-intelligence-reports/data)
+[Pitch](https://youtu.be/icNIfXuIBj4)
 
 ### License
 
