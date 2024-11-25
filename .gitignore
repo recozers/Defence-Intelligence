@@ -1,0 +1,16 @@
+myenv/
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+.vscode/
+__pycache__/
+*.py[cod]
+.env/
+*.egg
+*.egg-info/
+dist/
+build/
+env/
+venv/
+*.env
