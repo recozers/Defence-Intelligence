@@ -43,7 +43,7 @@ It should also be noted that all the documents here had to be declassified in or
 There are currently only around 100 reports in this database. I am committed to expanding this database as and when possible, there are around 1500 reports available online. I believe it is important to hand label them as using LLMs for this task would slightly defeat the point of creating the database. This is however the reason for only 100 being available as of this moment, it can take between 10 minutes and an hour to read a report and decide on a threat level.  
 
 ### Links
-Github: </br>
+[Github](https://github.com/recozers/Defence-Intelligence) </br>
 [Kaggle](https://www.kaggle.com/datasets/stuartbladon/declassified-cia-intelligence-reports/data)
 
 ### License

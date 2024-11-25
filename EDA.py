@@ -3,7 +3,7 @@ from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 from sklearn.feature_extraction.text import TfidfVectorizer
 
-data = pd.read_csv("/Users/stuartbladon/Documents/Duke 2024/AIPI 510/dataset proj/code+data/intelligence_data.csv")
+data = pd.read_csv("/Users/stuartbladon/Documents/Duke 2024/AIPI 510/dataset proj/code+data/intelligence_data.csv") # Again this will need an update
 
 #Very basic analysis
 
